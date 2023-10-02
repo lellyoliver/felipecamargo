@@ -58,7 +58,7 @@ a.btn-contact {
     color: white;
     text-decoration: none;
     border-top: 2px solid #0EE848;
-    cursor: default;
+    cursor: pointer;
 }
 
 a.btn-contact:hover {
@@ -96,7 +96,8 @@ hr.line-orange {
 }
 
 .bloco-2 {
-    padding: 150px 0px 260px 0px;
+    padding: 170px 0px 150px 0px;
+    min-height: 100vh;
     background: #252525;
 }
 
@@ -111,6 +112,11 @@ hr.line-orange {
 
 .bloco-5 {
     padding: 120px 0px 120px 0px;
+}
+
+.bloco-6 {
+    padding: 120px 0px 120px 0px;
+    background: linear-gradient(#252525 0%, #292929 100%);
 }
 
 /**Codigo geral**/
@@ -143,4 +149,8 @@ hr.line-orange {
     box-shadow: 0px 0px 20px #313131;
     width: calc((100% / 3) - 2rem);
     text-align: center;
+}
+
+footer {
+    padding-top: 80px;
 }

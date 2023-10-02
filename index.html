@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         referrerpolicy="no-referrer" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/brands.min.js"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
         referrerpolicy="no-referrer"></script>
 </head>
 
@@ -27,8 +27,10 @@
                                 title="Logo Felipe Camargo" width="250">
                         </div>
                         <div class="col-md-6 col-md-6 d-flex align-items-center justify-content-end">
-                            <a><i class="fa-brands fa-facebook text-white me-2"></i></a>
-                            <a><i class="fa-brands fa-instagram text-white"></i></a>
+                            <a href="https://www.facebook.com/felipecamargo.ti" target="_blank"><i
+                                    class="fa-brands fa-facebook text-white me-2 fs-5"></i></a>
+                            <a href="https://www.instagram.com/felipecamargo.ti" target="_blank"><i
+                                    class="fa-brands fa-instagram text-white fs-5"></i></a>
                         </div>
                     </div>
                     <div class="row d-flex align-items-center">
@@ -37,7 +39,8 @@
                                 Potencialize o seu negócio com a nossa assistência técnica para empreendedores
                             </h1>
                             <div class="padding-separador"></div>
-                            <a href="#" class="btn-contact btn-lg">Entre em contato <i
+                            <a href="https://api.whatsapp.com/send?phone=+5511968425287&text=Entrei%20em%20contato%20pelo%20site!"
+                                class="btn-contact btn-lg">Entre em contato <i
                                     class="fa-brands fa-whatsapp ms-3"></i></a>
                         </div>
                         <div class="col-md-6">
@@ -86,8 +89,8 @@
                         <h2 class="text-white text-uppercase lh-sm">serviços projetados
                             para impulsionar o seu negócio:</h2>
                         <div class="padding-separador"></div>
-                        <a href="#" class="btn-contact btn-lg">Entre em contato <i
-                                class="fa-brands fa-whatsapp ms-3"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=+5511968425287&text=Entrei%20em%20contato%20pelo%20site!"
+                            class="btn-contact btn-lg">Entre em contato <i class="fa-brands fa-whatsapp ms-3"></i></a>
                     </div>
                     <div class="col-md-9">
                         <div class="grid-columns">
@@ -181,28 +184,59 @@
             <div class="container">
                 <h2 class="text-orange text-uppercase lh-sm text-center mb-3">O que falam por aí</h2>
                 <hr class="line-orange m-0 m-auto">
-                <div class="padding-separador-2"></div>
+                <div class="padding-separador"></div>
                 <div id="google-reviews"></div>
             </div>
         </div>
+        <div class="bloco-6">
+            <div class="container">
+                <h2 class="text-white text-uppercase lh-sm text-center mb-3">Entre em Contato, agora mesmo!</h2>
+                <div class="padding-separador-2"></div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="contactName" class="form-label text-white">Nome Completo ou Nome da
+                                Empresa*:</label>
+                            <input type="text" class="form-control" id="contactName" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="contactTel" class="form-label text-white">Telefone</label>
+                            <input type="tel" class="form-control" id="contactTel" placeholder="11 90000-0000">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="contactMessage" class="form-label text-white">Mensagem</label>
+                        <textarea id="contactMessage" rows="3" class="form-control"></textarea>
+                    </div>
+                </div>
+                <div class="padding-separador"></div>
+                <div class="m-0 m-auto text-center">
+                    <a class="btn-contact btn-lg" id="submitMessage">Entre em contato <i
+                            class="fa-brands fa-whatsapp ms-3"></i></a>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer text-center">
+                <img src="img/logo_azul.jpg" alt="logo azul" srcset="img/logo_azul.jpg" class="">
+                <div class="mb-3 mt-3">
+                    <a href="https://www.facebook.com/felipecamargo.ti" target="_blank" title="ir para Facebook"><i
+                            class="fa-brands fa-facebook text-orange me-2 fs-5"></i></a>
+                    <a href="https://www.instagram.com/felipecamargo.ti" target="_blank" title="ir para Instagram"><i
+                            class="fa-brands fa-instagram text-orange fs-5"></i></a>
+                </div>
+                <div class="mb-5">
+                    <img src="img/parcelamento.jpg" alt="parcelamento" srcset="img/parcelamento.jpg">
+                </div>
+                <hr>
+                <p>© 2023 Felipe Camargo. Todos os direitos reservados | Desenvolvido por <a
+                        href="https://www.behance.net/iamlelly" title="Lelly Oliver">Lelly Oliver</a></p>
+            </div>
+        </footer>
     </div>
-    <link rel="stylesheet" href="https://cdn.rawgit.com/stevenmonson/googleReviews/master/google-places.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script
-        src="https://cdn.jsdelivr.net/gh/stevenmonson/googleReviews@6e8f0d794393ec657dab69eb1421f3a60add23ef/google-places.js"></script>
-    <script
-        src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDeivU57j-macv2fXXgbhKGM6cqMLmnAFI&signed_in=true&libraries=places"></script>
-
-    <script>
-        jQuery(document).ready(function ($) {
-            $("#google-reviews").googlePlaces({
-                placeId: 'ChIJlXU3H2Iqz5QR4F6N89v4Q9Q' //Find placeID @: https://developers.google.com/places/place-id
-                , render: ['reviews']
-                , min_rating: 4
-                , max_rows: 4
-            });
-        });
-    </script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
