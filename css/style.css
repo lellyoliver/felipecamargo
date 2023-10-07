@@ -98,8 +98,7 @@ hr.line-orange {
 }
 
 .bloco-2 {
-    padding: 170px 0px 150px 0px;
-    min-height: 100vh;
+    padding: 180px 0px 180px 0px;
     background: #252525;
 }
 
@@ -328,4 +327,8 @@ footer {
 .carousel-inner .carousel-item-end,
 .carousel-inner .carousel-item-start {
     transform: translateX(0);
+}
+
+.carousel-item {
+    height: 455px;
 }
