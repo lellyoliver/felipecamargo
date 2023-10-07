@@ -294,7 +294,21 @@ footer {
 
 /**BLOCO-3**/
 
-@media (max-width: 767px) {
+.imagens-carousel {
+    padding: 0;
+}
+
+.imagens-carousel img {
+    width: 33.3333333333vw;
+}
+
+@media (max-width: 500px) {
+    .imagens-carousel img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
     .carousel-inner .carousel-item>div {
         display: none;
     }
@@ -311,7 +325,7 @@ footer {
 }
 
 /* medium and up screens */
-@media (min-width: 768px) {
+@media (min-width: 500px) {
 
     .carousel-inner .carousel-item-end.active,
     .carousel-inner .carousel-item-next {
@@ -329,6 +343,4 @@ footer {
     transform: translateX(0);
 }
 
-.carousel-item {
-    height: 455px;
-}
+/*# sourceMappingURL=index.css.map */
