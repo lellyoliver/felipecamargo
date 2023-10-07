@@ -59,10 +59,12 @@ a.btn-contact {
     text-decoration: none;
     border-top: 2px solid #0EE848;
     cursor: pointer;
+    text-align: center;
 }
 
 a.btn-contact:hover {
     color: white;
+    text-align: center;
 }
 
 hr.line-orange {
@@ -124,7 +126,8 @@ hr.line-orange {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 260px;
+    justify-content: center;
+    -webkit-justify-content: center;
 }
 
 .item-01 {
@@ -153,4 +156,70 @@ hr.line-orange {
 
 footer {
     padding-top: 80px;
+}
+
+.display-mobile-none {
+    display: block;
+}
+
+.display-desktop-none {
+    display: none;
+}
+
+/**MOBILE**/
+
+@media only screen and (max-width: 900px) {
+
+    /**HOME**/
+    #social-media-navbar {
+        display: none !important;
+    }
+
+    div#img-logo-home {
+        text-align: center !important;
+    }
+
+    h1#title-home {
+        padding-top: 80px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .img-home {
+        margin-top: 50px !important;
+    }
+
+    /**BLOCO 2 - home**/
+    div#order-one-mobile {
+        order: 1;
+    }
+
+    div#order-two-mobile {
+        order: 2;
+    }
+
+    h1#title-bloco-2-home {
+        padding-top: 80px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    /**BLOCO 2**/
+    .bloco-2 {
+        padding: 60px 0px 60px 0px;
+        min-height: 100%;
+        background: #252525;
+    }
+
+    .display-mobile-none {
+        display: none !important;
+    }
+
+    .display-desktop-none {
+        display: block !important;
+    }
 }
