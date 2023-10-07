@@ -211,6 +211,10 @@ footer {
 @media only screen and (max-width: 900px) {
 
     /**HOME**/
+    .bloco-1 {
+        padding: 40px 20px 60px 20px;
+    }
+
     #social-media-navbar {
         display: none !important;
     }
