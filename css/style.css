@@ -198,6 +198,10 @@ footer {
     padding-top: 80px;
 }
 
+p.copy {
+    margin: 20px;
+}
+
 .display-mobile-none {
     display: block;
 }
